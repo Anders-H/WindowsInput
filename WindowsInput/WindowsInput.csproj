@@ -1,9 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <Authors>Anders Hesselbom</Authors>
+    <Company>WinSoft.se</Company>
+    <Description>A library with two functions: Clear mouse input buffer and clear keyboard input buffer. This is useful if you want to lock down your GUI to do shorter work in the GUI thread.</Description>
+    <PackageProjectUrl>https://github.com/Anders-H/WindowsInput</PackageProjectUrl>
   </PropertyGroup>
 
 </Project>
