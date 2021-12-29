@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsInput", "WindowsInput\WindowsInput.csproj", "{FCFFB184-09AE-44F2-A692-91514F36F544}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsInputDemo", "WindowsInputDemo\WindowsInputDemo.csproj", "{52925BD4-5824-491E-BA99-8B09ADDCEBE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB3330A9-BE05-4E64-9CA9-A30F3B34409C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCFFB184-09AE-44F2-A692-91514F36F544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCFFB184-09AE-44F2-A692-91514F36F544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCFFB184-09AE-44F2-A692-91514F36F544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCFFB184-09AE-44F2-A692-91514F36F544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52925BD4-5824-491E-BA99-8B09ADDCEBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52925BD4-5824-491E-BA99-8B09ADDCEBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52925BD4-5824-491E-BA99-8B09ADDCEBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52925BD4-5824-491E-BA99-8B09ADDCEBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D2D3159-5FA2-4333-B8A8-EA281604C28D}
+	EndGlobalSection
+EndGlobal
