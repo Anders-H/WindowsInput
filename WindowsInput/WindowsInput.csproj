@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Authors>Anders Hesselbom</Authors>
@@ -11,6 +11,33 @@
     <PackageId>$(AssemblyName)BufferAccess</PackageId>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <ApplicationIcon>nugeticon.ico</ApplicationIcon>
+    <Title>Native Windows Input Control</Title>
+    <Copyright>Anders Hesselbom</Copyright>
+    <PackageIcon>nugeticon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Anders-H/WindowsInput/</RepositoryUrl>
+    <PackageReleaseNotes>Moved to .NET 8.</PackageReleaseNotes>
+    <AssemblyVersion>2.0</AssemblyVersion>
+    <FileVersion>2.0</FileVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="nugeticon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="nugeticon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
